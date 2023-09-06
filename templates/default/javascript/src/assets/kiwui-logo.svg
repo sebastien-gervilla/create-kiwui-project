@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+	<title>kiwui-logo</title>
+	<defs>
+		<image  width="500" height="500" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0AQMAAADxGE3JAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAA1SURBVHic7cExAQAAAMKg9U/tYQ2gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG59AAABhRLY9gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #5fc039 } 
+		.s1 { fill: #181c18 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Forme 1" class="s0" d="m249.5 487c-131.3 0-237.5-106.2-237.5-237.5 0-131.3 106.2-237.5 237.5-237.5 131.3 0 237.5 106.2 237.5 237.5 0 131.3-106.2 237.5-237.5 237.5z"/>
+	<path id="Forme 2" class="s1" d="m249.5 137c-5.8 0-10.5-8.3-10.5-18.5 0-10.2 4.7-18.5 10.5-18.5 5.8 0 10.5 8.3 10.5 18.5 0 10.2-4.7 18.5-10.5 18.5z"/>
+	<path id="Forme 2 copy" class="s1" d="m363 250.5c0-5.8 8.3-10.5 18.5-10.5 10.2 0 18.5 4.7 18.5 10.5 0 5.8-8.3 10.5-18.5 10.5-10.2 0-18.5-4.7-18.5-10.5z"/>
+	<path id="Forme 2 copy 3" class="s1" d="m100 250.5c0-5.8 8.3-10.5 18.5-10.5 10.2 0 18.5 4.7 18.5 10.5 0 5.8-8.3 10.5-18.5 10.5-10.2 0-18.5-4.7-18.5-10.5z"/>
+	<path id="Forme 2 copy 4" class="s1" d="m330.4 168.6c-4.1-4.1-1.6-13.3 5.7-20.5 7.2-7.3 16.4-9.8 20.5-5.7 4.1 4.1 1.6 13.3-5.7 20.5-7.2 7.3-16.4 9.8-20.5 5.7z"/>
+	<path id="Forme 2 copy 5" class="s1" d="m142.4 356.6c-4.1-4.1-1.6-13.3 5.7-20.5 7.2-7.3 16.4-9.8 20.5-5.7 4.1 4.1 1.6 13.3-5.7 20.5-7.2 7.3-16.4 9.8-20.5 5.7z"/>
+	<path id="Forme 2 copy 6" class="s1" d="m142.4 142.4c4.1-4.1 13.3-1.6 20.5 5.7 7.3 7.2 9.8 16.4 5.7 20.5-4.1 4.1-13.3 1.6-20.5-5.7-7.3-7.2-9.8-16.4-5.7-20.5z"/>
+	<path id="Forme 2 copy 7" class="s1" d="m330.4 330.4c4.1-4.1 13.3-1.6 20.5 5.7 7.3 7.2 9.8 16.4 5.7 20.5-4.1 4.1-13.3 1.6-20.5-5.7-7.3-7.2-9.8-16.4-5.7-20.5z"/>
+	<path id="Forme 2 copy 2" class="s1" d="m250.5 400c-5.8 0-10.5-8.3-10.5-18.5 0-10.2 4.7-18.5 10.5-18.5 5.8 0 10.5 8.3 10.5 18.5 0 10.2-4.7 18.5-10.5 18.5z"/>
+</svg>
