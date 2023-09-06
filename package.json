@@ -1,0 +1,54 @@
+{
+  "name": "create-kiwui-project",
+  "version": "1.0.0",
+  "description": "Quick way of starting a new Kiwui project.",
+  "author": "Sébastien Gervilla (sebastien-gervilla)",
+  "license": "ISC",
+  "keywords": [
+    "kiwui",
+    "javascript",
+    "typescript",
+    "front-end",
+    "ui"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "create-kiwui-project": "dist/bin/index.js"
+  },
+  "files": [
+    "dist",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && npx create-kiwui-project myProject --typescript"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7",
+    "picocolors": "^1.0.0",
+    "prompts": "^2.4.2",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/cross-spawn": "^6.0.3",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.5.7",
+    "@types/prompts": "^2.4.4",
+    "typescript": "^5.2.2"
+  },
+  "homepage": "https://github.com/sebastien-gervilla/create-kiwui-project#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastien-gervilla/create-kiwui-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastien-gervilla/create-kiwui-project/issues"
+  }
+}
