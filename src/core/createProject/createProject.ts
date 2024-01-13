@@ -24,6 +24,7 @@ export const createProject = async ({
         version: '0.1.0',
         private: true,
         scripts: {
+            dev: 'kiwui-scripts dev',
             start: 'kiwui-scripts start',
             build: 'kiwui-scripts build'
         },
