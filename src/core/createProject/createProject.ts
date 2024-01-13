@@ -1,7 +1,7 @@
 import os from 'os';
 import path from "path";
 import { green } from "picocolors";
-import { copy, exists, writeFile } from 'fs-extra';
+import { copy, exists, writeFile, rename } from 'fs-extra';
 import { install } from '../../utils/install';
 import { Configuration } from '../../types/project';
 import { exitProccess } from '../../utils/exit';
@@ -34,6 +34,12 @@ export const createProject = async ({
         path.join(projectPath, 'package.json'),
         JSON.stringify(packageJson, null, 2) + os.EOL
     );
+
+    // Rename gitignore to .gitignore
+    rename(
+        path.join(projectPath, 'gitignore'),
+        path.join(projectPath, '.gitignore')
+    )
 
     // Dependencies installation
     const dependencies = [
