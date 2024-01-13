@@ -1,6 +1,6 @@
 {
   "name": "create-kiwui-project",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Quick way of starting a new Kiwui project.",
   "author": "Sébastien Gervilla (sebastien-gervilla)",
   "license": "ISC",

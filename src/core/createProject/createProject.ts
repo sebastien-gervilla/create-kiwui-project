@@ -35,14 +35,10 @@ export const createProject = async ({
     );
 
     // Dependencies installation
-    const dependencies = [ // TODO: Packages instead of paths, special functions for questions "askMode"
-        '../kiwui',
-        '../kiwui-dom',
-        '../kiwui-scripts',
-
-        // TODO: remove these
-        '../kiwui-reconciler',
-        '../kiwui-babel-plugin'
+    const dependencies = [
+        'kiwui',
+        'kiwui-dom',
+        'kiwui-scripts'
     ];
 
     console.log('Installing dependencies :\n');
