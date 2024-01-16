@@ -2,18 +2,11 @@
 
 A quick way to start a kiwui project.
 
-## Installation
-
-Just install the package globally with :
-
-`npm i -g create-kiwui-project`
-
 ## Usage
 
 You can initialize a project by using :
 
-`npx create-kiwui-project <project-directory> [options]`
-
+`npx create-kiwui-project@latest <project-directory> [options]`
 
 You will be asked asked a couple questions to determine you project configuration, like :
 
