@@ -9,7 +9,7 @@ export const askForTemplate = () => {
             name: 'template',
             message: `What template would you like to use ?`,
             choices: templates,
-            initial: 1,
+            initial: 0,
         },
         {
             // User inputs Ctrl+C or Ctrl+D to exit the prompt.
